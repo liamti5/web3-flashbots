@@ -5,7 +5,7 @@ packages = ["flashbots"]
 
 package_data = {"": ["*"]}
 
-install_requires = ["web3>=5.22.0,<7"]
+install_requires = ["web3>=6.0.0,<7"]
 
 setup_kwargs = {
     "name": "flashbots",
@@ -17,7 +17,7 @@ setup_kwargs = {
     "author_email": "me@gakonst.com",
     "maintainer": "zeroXbrock",
     "maintainer_email": "brock@flashbots.net",
-    "url": "https://github.com/flashbots/web3-flashbots",
+    "url": "https://github.com/liamti5/web3-flashbots",
     "packages": packages,
     "package_data": package_data,
     "install_requires": install_requires,
